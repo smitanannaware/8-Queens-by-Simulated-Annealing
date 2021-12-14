@@ -16,7 +16,7 @@ Probability = e<sup>∆E/T</sup>
 
 where T is temperature varies based on cooling schedule, 
 
-∆E = Error function i.e., Heuristic value of next state - Heuristic value of next state,
+∆E = Error function i.e., Heuristic value of current state - Heuristic value of next state,
 
 Below are the parameters affecting the probability function is discussed.
 
