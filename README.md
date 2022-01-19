@@ -1,4 +1,8 @@
 # 8-Queens-by-Simulated-Annealing
+
+![SimulatedAnnealing](https://github.com/smitanannaware/8-Queens-by-Simulated-Annealing/blob/main/SimulatedAnnealing/animation.gif)
+
+
 Simulated annealing term borrowed from metallurgy. Annealing is the process of heating a metal and letting it cool down slowly to lock in the stable locations of the molecules. In Simulated Annealing algorithm combines random walk where random successor is chosen uniformly from the set of successors and the hill climbing algorithm. Combining random walk with hill climbing yields efficiency and completeness.
 
 Simulated annealing always moves uphill if possible, like hill climb. But it allows some bad moves as opposed to hill climb when the temperature is high. As temperature decreases it reduces the chances of selecting bad moves. Optimality is guaranteed with slow annealing schedule. In this project we will be analyzing the effect of annealing schedule on completeness of the algorithm for solving 8-queens problem.
@@ -31,5 +35,3 @@ In contrast to the starting temperature, the stopping temperature kept sufficien
 •	Cooling schedule = 0 to 1
 The cooling schedule is biggest factor affecting the algorithm’s ability to reach an optimal solution. Here geometric cooling technique is used whose value range from 0 to 1. Higher the number slower the temperature rate and vice versa. This is dynamically taken as input from user before running the algorithm.
 
-# Demo
-![SimulatedAnnealing](https://user-images.githubusercontent.com/93964366/145923410-00dbe441-e9bf-4957-a7b3-bbaeb453e98e.gif)
